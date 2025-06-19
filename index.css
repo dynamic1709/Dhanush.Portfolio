@@ -1,0 +1,280 @@
+
+/*-Home Banner Section-*/
+
+.hbs-nav-logo {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 28px;
+    font-weight: 700;
+    border-color: #4b6cc1;
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+}
+
+.hbs-bg-container {
+    background-color: #191a1d;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hbs-image {
+    height: 350px;
+    width: 350px;
+    border-radius:50%;
+}
+
+.hbs-main-heading {
+    font-size:35px;
+    color: #ffffff;
+    font-family: "roboto";
+}
+
+.hbs-heading-in {
+    color: #4b6cc1;
+}
+
+.hbs-para {
+    color: #9aa5b1;
+    font-size: 30px;
+}
+.hbs-para2{
+    color: #e3e7eb;
+    font-size:18px;
+}
+
+.hbs-button{
+    width:140px;
+    height:40px;
+    background-color: transparent;
+    border-width:1px;
+    border-radius:5px;
+    border-style: solid;
+    border-color:#ffffff;
+    color:#ffffff;
+    text-align: center;
+    font-weight:500;
+}
+
+.button {
+    background-color: #4b6cc1;
+    color: #ffffff;
+    font-family: "roboto";
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 20px;
+}
+
+/*--About Me Section--*/
+
+.ams-bg-container {
+    background-color: #323f4b;
+    background-size: cover;
+
+}
+
+.ams-heading {
+    color: #cced00;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.ams-main-heading {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.ams-image-card {
+    width: 500px;
+    height: 500px;
+}
+
+.ams-paragraph {
+    color: #9aa5b1;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.ams-bg-container1 {
+    background-color: #1f2933;
+    background-size: cover;
+    padding-top: 35px;
+}
+
+.ams-image-font {
+    text-align: center;
+    background-color: #323f4b;
+    padding: 13px;
+    border-radius: 10px;
+}
+
+.ams-image {
+    height: 70px;
+    width: 70px;
+    border-radius:10px;
+    margin-bottom: 5px;
+}
+
+.ams-image-card1 {
+    height: 390px;
+    width: 350px;
+    margin-top: 45px;
+
+}
+
+/*-Project Section-*/
+
+.ps-bg-container {
+    background-color: #3e4c59;
+    background-size: cover;
+
+}
+
+.ps-container-heading {
+    color: #cced00;
+    font-size: 25px;
+}
+
+.ps-statement {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.ps-image-container {
+    background-color: #323f4b;
+    border-radius: 10px;
+}
+
+.ps-image-card {
+    height: 260px;
+    width: 480px;
+    border-radius:10px;
+}
+
+h1 {
+    color: #9aa5b1;
+    font-size: 15px;
+}
+
+.ps-main-heading {
+    color: #ffffff;
+    font-size:25px;
+    font-family: Roboto;
+}
+
+.ps-paragraph {
+    color: #9aa5b1;
+    font-family: Roboto;
+    font-size:18px;
+}
+
+.ps-menu-item-link {
+    color: #cced00;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/*-Sevrice Section-*/
+
+.ser-bg-container {
+    background-color: #52606d;
+    background-size: cover;
+}
+
+.ser-services-text {
+    color: #cced00;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.ser-statement {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.ser-card-container {
+    background-color: #323f4b;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.ser-image-card {
+    height: 65px;
+    width: 60px;
+}
+
+.ser-main-heading {
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.ser-paragraph {
+    color: #9aa5b1;
+    font-size: 25px;
+    font-family: Roboto;
+}
+
+/*Section Contact*/
+.cs-bg-container {
+    background-color: #001c32;
+    background-size: cover;
+}
+
+.cs-image-card {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.cs-heading {
+    color: #cced00;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cs-para {
+    color: #9aa5b1;
+    font-family: Roboto;
+    font-size: 19px;
+}
+
+.cs-icon-image {
+    color: #5a7184;
+    font-size: 22px;
+}
+
+.cs-bg-container1 {
+    background-color: #001c32;
+    background-size: cover;
+}
+
+
+
+.contact-section {
+  background-color:#0d2436;
+}
+
+.contact-section h2 {
+  font-weight: bold;
+  color:#cced00;
+}
+
+.contact-section .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.form-label{
+    color:#cced00;
+}
