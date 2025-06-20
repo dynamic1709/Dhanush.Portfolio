@@ -1,4 +1,22 @@
 /*-- Home Banner Section --*/
+.nav-bg {
+    background-color: transparent !important;
+}
+.nav-button{
+    height:30px;
+    width:100px;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius:15px;
+    border-width:2px;
+    border-color: #00e0ff;
+    border-style:solid;
+    text-align: center;
+}
+.nav-button:hover {
+    background-color: #00e0ff;
+    color: #0a0f1a;
+}
 
 .hbs-nav-logo {
     color: #00e0ff;
