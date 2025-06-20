@@ -1,19 +1,16 @@
-
-/*-Home Banner Section-*/
+/*-- Home Banner Section --*/
 
 .hbs-nav-logo {
-    color: #ffffff;
-    font-family: "roboto";
+    color: #00e0ff;
+    font-family: "Roboto", sans-serif;
     font-size: 28px;
     font-weight: 700;
-    border-color: #4b6cc1;
-    border-style: solid;
-    border-width: 3px;
+    border: 2px solid #00e0ff;
     padding: 10px;
 }
 
 .hbs-bg-container {
-    background-color: #191a1d;
+    background-color: #0a0f1a;
     background-size: cover;
     height: 100vh;
 }
@@ -21,70 +18,70 @@
 .hbs-image {
     height: 350px;
     width: 350px;
-    border-radius:50%;
+    border-radius: 50%;
+    border: 4px solid #00e0ff;
 }
 
 .hbs-main-heading {
-    font-size:35px;
+    font-size: 35px;
     color: #ffffff;
-    font-family: "roboto";
 }
 
 .hbs-heading-in {
-    color: #4b6cc1;
+    color: #00e0ff;
 }
 
 .hbs-para {
-    color: #9aa5b1;
-    font-size: 30px;
-}
-.hbs-para2{
-    color: #e3e7eb;
-    font-size:18px;
+    color: #b0bec5;
+    font-size: 28px;
 }
 
-.hbs-button{
-    width:140px;
-    height:40px;
+.hbs-para2 {
+    color: #eceff1;
+    font-size: 18px;
+}
+
+.hbs-button {
+    width: 140px;
+    height: 40px;
     background-color: transparent;
-    border-width:1px;
-    border-radius:5px;
-    border-style: solid;
-    border-color:#ffffff;
-    color:#ffffff;
-    text-align: center;
-    font-weight:500;
+    border: 2px solid #00e0ff;
+    border-radius: 5px;
+    color: #00e0ff;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.hbs-button:hover {
+    background-color: #00e0ff;
+    color: #0a0f1a;
 }
 
 .button {
-    background-color: #4b6cc1;
-    color: #ffffff;
-    font-family: "roboto";
+    background-color: #00e0ff;
+    color: #0a0f1a;
+    font-family: "Roboto", sans-serif;
     height: 50px;
     width: 150px;
     border-radius: 10px;
-    border-width: 0px;
     font-size: 20px;
+    border: none;
 }
 
-/*--About Me Section--*/
+/*-- About Me Section --*/
 
 .ams-bg-container {
-    background-color: #323f4b;
-    background-size: cover;
-
+    background-color: #101820;
 }
 
 .ams-heading {
-    color: #cced00;
-    font-family: Roboto;
+    color: #00e0ff;
     font-size: 22px;
     font-weight: bold;
 }
 
 .ams-main-heading {
     color: #ffffff;
-    font-family: Roboto;
     font-size: 35px;
     font-weight: bold;
 }
@@ -92,23 +89,22 @@
 .ams-image-card {
     width: 500px;
     height: 500px;
+
 }
 
 .ams-paragraph {
-    color: #9aa5b1;
-    font-family: Roboto;
+    color: #cfd8dc;
     font-size: 18px;
 }
 
 .ams-bg-container1 {
-    background-color: #1f2933;
-    background-size: cover;
+    background-color: #0a192f;
     padding-top: 35px;
 }
 
 .ams-image-font {
     text-align: center;
-    background-color: #323f4b;
+    background-color: #1c2a40;
     padding: 13px;
     border-radius: 10px;
 }
@@ -116,7 +112,7 @@
 .ams-image {
     height: 70px;
     width: 70px;
-    border-radius:10px;
+    border-radius: 10px;
     margin-bottom: 5px;
 }
 
@@ -124,19 +120,16 @@
     height: 390px;
     width: 350px;
     margin-top: 45px;
-
 }
 
-/*-Project Section-*/
+/*-- Project Section --*/
 
 .ps-bg-container {
-    background-color: #3e4c59;
-    background-size: cover;
-
+    background-color:#0a0f1a;
 }
 
 .ps-container-heading {
-    color: #cced00;
+    color: #00e0ff;
     font-size: 25px;
 }
 
@@ -147,62 +140,62 @@
 }
 
 .ps-image-container {
-    background-color: #323f4b;
+    background-color: #1c2a40;
     border-radius: 10px;
 }
 
 .ps-image-card {
     height: 260px;
-    width: 480px;
-    border-radius:10px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 h1 {
-    color: #9aa5b1;
+    color: #90a4ae;
     font-size: 15px;
 }
 
 .ps-main-heading {
     color: #ffffff;
-    font-size:25px;
-    font-family: Roboto;
+    font-size: 25px;
 }
 
 .ps-paragraph {
-    color: #9aa5b1;
-    font-family: Roboto;
-    font-size:18px;
+    color: #b0bec5;
+    font-size: 18px;
 }
 
 .ps-menu-item-link {
-    color: #cced00;
+    color: #00e0ff;
     font-size: 17px;
     font-weight: bold;
+    text-decoration: none;
 }
 
-/*-Sevrice Section-*/
+.ps-menu-item-link:hover {
+    text-decoration: underline;
+}
+
+/*-- Service Section --*/
 
 .ser-bg-container {
-    background-color: #52606d;
-    background-size: cover;
+    background-color: #0d1e2d;
 }
 
 .ser-services-text {
-    color: #cced00;
+    color: #00e0ff;
     font-size: 24px;
-    font-family: Roboto;
     font-weight: bold;
 }
 
 .ser-statement {
     color: #ffffff;
-    font-family: Roboto;
     font-size: 35px;
     font-weight: bold;
 }
 
 .ser-card-container {
-    background-color: #323f4b;
+    background-color: #1c2a40;
     padding: 20px;
     border-radius: 8px;
 }
@@ -214,39 +207,35 @@ h1 {
 
 .ser-main-heading {
     color: #ffffff;
-    font-family: Roboto;
-    font-weight: bold;
     font-size: 29px;
 }
 
 .ser-paragraph {
-    color: #9aa5b1;
-    font-size: 25px;
-    font-family: Roboto;
+    color: #cfd8dc;
+    font-size: 20px;
 }
 
-/*Section Contact*/
+/*-- Contact Section --*/
+
 .cs-bg-container {
-    background-color: #001c32;
-    background-size: cover;
+    background-color: #081018;
 }
 
 .cs-image-card {
     height: 60px;
     width: 60px;
     border-radius: 50px;
+    border: 2px solid #00e0ff;
 }
 
 .cs-heading {
-    color: #cced00;
-    font-family: Roboto;
+    color: #00e0ff;
     font-size: 20px;
     font-weight: bold;
 }
 
 .cs-para {
-    color: #9aa5b1;
-    font-family: Roboto;
+    color: #b0bec5;
     font-size: 19px;
 }
 
@@ -256,25 +245,23 @@ h1 {
 }
 
 .cs-bg-container1 {
-    background-color: #001c32;
-    background-size: cover;
+    background-color: #081018;
 }
 
-
-
 .contact-section {
-  background-color:#0d2436;
+    background-color: #0d1b2a;
 }
 
 .contact-section h2 {
-  font-weight: bold;
-  color:#cced00;
+    color: #00e0ff;
+    font-weight: bold;
+}
+
+.form-label {
+    color: #00e0ff;
 }
 
 .contact-section .form-control:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
-}
-.form-label{
-    color:#cced00;
+    border-color: #00e0ff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 224, 255, 0.25);
 }
