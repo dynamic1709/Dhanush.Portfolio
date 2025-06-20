@@ -148,14 +148,14 @@
 
                 <div class="col-12 col-md-6">
                     <div class="ps-image-container">
-                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png" class="image-card w-100" />
+                        <img src="Foodmanch.png" class="ps-image-card w-100" />
 
                         <h1 class="p-3">Web design</h1>
-                        <h1 class="ps-main-heading pl-3">NEC LEAP</h1>
-                        <p class="ps-paragraph pl-3">Happy Meals is the best-in-class food ordering page today.
+                        <h1 class="ps-main-heading pl-3">Food Munch</h1>
+                        <p class="ps-paragraph pl-3">Food Munch is the best-in-class food ordering page today.
                             With interactive UI/UX and simple call to actions...</p>
                         <a href="https://foodmunch-sand.vercel.app/" target="_blank" class="ps-menu-item-link pl-3">
-                            Read More
+                            Visit Web
                         </a>
                         <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -305,22 +305,25 @@
 
 
 <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbynsd7OZTusCFMu1cmr_yFO4wvG6xMtGjY9Lk4arc3OfJtJqrqn3v8ufXWwDwXe9dAuNQ/exec';
-  const form = document.getElementById('contact-form');
-  const responseEl = document.getElementById('response');
+ const scriptURL = 'https://script.google.com/macros/s/AKfycbynsd7OZTusCFMu1cmr_yFO4wvG6xMtGjY9Lk4arc3OfJtJqrqn3v8ufXWwDwXe9dAuNQ/exec';
+const form = document.getElementById('contact-form');
+const responseEl = document.getElementById('response');
 
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-        responseEl.innerHTML = "Message sent successfully!";
-        form.reset();
-      })
-      .catch(error => {
-        responseEl.innerHTML = "Something went wrong!";
-        console.error('Error!', error.message);
-      });
-  });
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+      responseEl.textContent = "Message sent successfully!";
+      responseEl.className = "success";
+      form.reset();
+    })
+    .catch(error => {
+      responseEl.textContent = "Something went wrong!";
+      responseEl.className = "error";
+      console.error('Error!', error.message);
+    });
+});
+
 </script>
 
 </body>

@@ -265,3 +265,15 @@ h1 {
     border-color: #00e0ff;
     box-shadow: 0 0 0 0.2rem rgba(0, 224, 255, 0.25);
 }
+#response {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#response.success {
+  color: green;
+}
+
+#response.error {
+  color: red;
+}
